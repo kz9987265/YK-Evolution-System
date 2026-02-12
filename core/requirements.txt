@@ -1,0 +1,15 @@
+# YK 自我進化系統依賴
+
+# 核心 AI 框架
+llama-cpp-python>=0.2.0  # 本地 LLM 推理（Qwen3）
+google-generativeai>=0.3.0  # Gemini API
+
+# 任務調度
+schedule>=1.2.0  # 定時任務
+
+# 數據處理（已在標準庫，但列出供參考）
+# json, datetime, pathlib, hashlib, collections 都是標準庫
+
+# 開發工具（可選）
+pytest>=7.4.0  # 單元測試
+black>=23.0.0  # 代碼格式化
